@@ -1,4 +1,4 @@
-# MLflow Model for Pulsar Star Classification
+# MLflow Model for Laptop Price Estimator
 
 ## Overview
 

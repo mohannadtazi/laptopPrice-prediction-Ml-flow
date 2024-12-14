@@ -56,7 +56,7 @@ export MLFLOW_TRACKING_PASSWORD="<password>"
 Then, run the following command:
 
 ```bash
-mlflow run . -P data_path=./data/pulsar_stars.csv
+mlflow run . -P data_path=./data/dataset.csv
 ```
 
 ### 4. Exposing the Model for Inference

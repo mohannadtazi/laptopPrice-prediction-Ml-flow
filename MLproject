@@ -1,0 +1,10 @@
+name: mlflow-laptop-estimator
+
+conda_env: lpp/conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      data_path: string
+      test_size: {type: float, default: 0.2}
+    command: "python psp/training.py --data-path {data_path} --test-size {test_size}"
